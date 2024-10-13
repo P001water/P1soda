@@ -12,3 +12,9 @@ v0.0.2
 2. 修改http/https判断功能
 3. 增加poc和指纹信息
 
+v0.0.3
+
+1. 添加默认扫描端口（fofa上的vnc端口top 5）
+1. 增加vnc服务未授权识别和爆破
+
+<img src="./img/image-20241013191315747.png" alt="image-20241013191315747" style="zoom: 33%;" />

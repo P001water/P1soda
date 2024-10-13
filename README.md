@@ -37,6 +37,7 @@ mssql
 memcached
 redis
 adb
+VNC
 ```
 
 * web 侧信息探测
@@ -55,7 +56,7 @@ socket Raw连接发包解决，避免调包，最小化工具体积
 
 137 NBNS、139 NTLMSSP协议中的主机信息提取，137 NBNS协议域控识别
 
-* 常见服务爆破功能，例如ftp、mysql等等
+* 常见服务爆破功能，例如ssh、ftp、mysql、vnc等等
 
 根据返回报文更加智能化的服务爆破，减少无用的爆破，目前支持爆破模块
 
@@ -63,6 +64,7 @@ socket Raw连接发包解决，避免调包，最小化工具体积
 Ftp
 mysql
 ssh
+vnc
 ```
 
 * web 漏洞检测

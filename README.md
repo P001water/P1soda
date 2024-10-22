@@ -6,7 +6,7 @@
 
 
 
-P1soda （苏打水）是一款更高、更快、更强的全方位内网扫描工具，Powered by P001water
+P1soda （苏打水）是一款常规内网渗透场景下的全方位漏洞扫描工具，Powered by P001water
 
 
 
@@ -74,6 +74,10 @@ vnc
 * socks5、http代理使用
 
 支持socks5、http代理使用
+
+* MS-17010检测，redis，vnc未授权检测等等
+
+
 
 ​	
 
@@ -181,5 +185,17 @@ v0.0.3
 
 <img src="./img/image-20241013191315747.png" alt="image-20241013191315747" style="zoom: 33%;" />
 
+v0.0.4
 
+1. redis 未授权检测和系统信息提取
+
+<img src="./img/image-20241022001135114.png" alt="image-20241022001135114" style="zoom:33%;" />
+
+2. ms17010永恒之蓝检测 （没研究过，抄的k8gege的）
+
+<img src="./img/image-20241022001225844.png" alt="image-20241022001225844" style="zoom:33%;" />
+
+3. hikivision版本信息检测和漏洞poc添加
+
+<img src="./img/image-20241022010715099.png" alt="image-20241022010715099" style="zoom:33%;" />
 

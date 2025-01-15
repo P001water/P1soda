@@ -8,7 +8,7 @@
 
 P1soda （苏打水）是一款常规内网渗透场景下的全方位漏洞扫描工具，Powered by P001water
 
-`最近更新时间: 2025/1/15更新`
+`最近更新时间: 2025/1/15更新，更新日志见README.md的底部`
 
 
 
@@ -35,19 +35,9 @@ P1soda （苏打水）是一款常规内网渗透场景下的全方位漏洞扫�
 如下14条nmap Probe，支持指纹识别如下协议服务：
 
 ```
-ftp
-monetdb
-mysql
-ssh
-postgresql
-socks5
-socks4
-JDWP
-mssql
-memcached
-redis
-adb
-VNC
+ftp、monetdb、mysql、ssh、postgresql、
+socks5、socks4、JDWP、mssql、memcached
+redis、adb、VNC
 ```
 
 * web 侧信息探测
@@ -57,6 +47,10 @@ http请求时User-Agent头随机化，基本web信息探测，http响应状态�
 * web 重点资产指纹识别
 
 从P1finger中精简的内网常见系统的指纹
+
+* web 漏洞检测
+
+从头实现的Mini Nuclei引擎，体积小于 2 M，支持nuclei的POC
 
 * OXID Resolver DCOM接口未授权网卡探测
 
@@ -76,10 +70,6 @@ mysql
 ssh
 vnc
 ```
-
-* web 漏洞检测
-
-从头实现的Mini Nuclei引擎，体积小于 2 M，支持nuclei的POC
 
 * socks5、http代理使用
 
